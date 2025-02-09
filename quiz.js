@@ -1,5 +1,4 @@
 let subimtAnswer = document.getElementById('submit-answer');
-submitAnswer.addEventListener("click", checkAnswer);
 
 function checkAnswer() {
     const correctAnswer = "4";
@@ -11,5 +10,5 @@ function checkAnswer() {
     } else {
         document.getElementById('feedback').textContent = "That's incorrect. Try again!";
     }
-  
+    submitAnswer.addEventListener("click", checkAnswer);
 }
