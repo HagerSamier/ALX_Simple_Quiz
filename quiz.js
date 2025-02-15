@@ -5,7 +5,7 @@ function chekerAnswer() {
     if(correctAnswer == userAnswer) {
         document.getElementById('feedback').textContent = 'Correct! Well Done';
     } else {
-        document.getElementById('feedback').textContent = 'Wrong! Try Again';
+        document.getElementById('feedback').textContent = "That's incorrect. Try again!";
     }
 }
 
